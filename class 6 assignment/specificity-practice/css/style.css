@@ -7,10 +7,10 @@
     color: red;
 }
 /* Please select "Hello, world!" with the highest level of specificity possible*/
-body section#rugratsWildThornberrysBestCrossOverAllTime h2 {
-    color: teal;
+html head + body header.top + section#rugratsWildThornberrysBestCrossOverAllTime h2 {
+    color: teal !important;
 }
 /* Please select "Let's get down to business..." with the highest level of specificity possible */
-body section#chunkyMilk p.passTheRemote.turtles {
-    color: green;
+html head + body section#chunkyMilk p.passTheRemote.turtles {
+    color: green !important;
 }
