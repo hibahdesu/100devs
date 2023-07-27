@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --one: #F5F9FC;
+    --two: #2C4458;
+    --three: #E2EAF0;
+}
+body {
+    background-color: var(--one);
+}
+header {
+    padding: 1.5rem 3rem;
+    margin-bottom: 2rem;
+    height: 100px;
+}
+header nav h1, header nav ul, header nav div {
+    float: left;
+    width: 30%;
+    margin-right: 3rem;
+    /* border: 1px solid black; */
+    color: var(--two);
+}
+header nav h1 {
+    font-size: 3rem;
+}
+header nav ul li {
+    float: left;
+    width: 20%;
+    margin-right: 1rem;
+    list-style: none;
+    
+}
+header nav ul li a {
+    text-decoration: none;
+    color: var(--two);
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+header nav div button, .one section form button {
+    padding: .6rem 1.2rem;
+    /* font-size: 1.2rem; */
+    background-color: var(--two);
+    color: var(--one);
+    border: none;
+    cursor: pointer;
+}
+header nav div {
+    text-align: right;
+}
+.one {
+    margin-bottom: 4rem;
+}
+.one section, .one img {
+    float: left;
+    width: 50%;
+}
+.one section {
+    /* margin: 3rem 6rem; */
+    padding: 6rem 10rem;
+    color: var(--two);
+}
+.one section h2 {
+    padding: 2rem 0;
+    font-size: 4rem;
+}
+img {
+    margin-bottom: 2rem;
+}
+.one section form input {
+    background-color: var(--three);
+    width: 70%;
+    padding: 1rem;
+    border: none;
+}
+.one section form button {
+    padding: 1rem 2rem;
+}
+.one section p {
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+.two {
+    padding: 8rem;
+}
+.two div {
+    float: left;
+    width: 25%;
+    margin-bottom: 6rem;
+    color: var(--two);
+}
+.two div i {
+    font-size: 2rem;
+}
+.two div h3 {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.two div p {
+    width: 300px;
+    font-size: 1.2rem;
+    padding: 0 0 1rem;
+}
+.two div a {
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--two);
+}
+.menu {
+    display: none;
+}
+@media screen and (max-width: 480px){
+    .one section, .one img, .two div  {
+        width: 100%;
+    }
+    .menu {
+        display: block;
+        font-size: 3rem;
+    }
+    header {
+        padding: 1rem;
+        border-bottom: 1px solid var(--two) ;
+    }
+    .header nav h1 {
+        font-size: 5rem;
+    }
+    .header nav h1, .menu {
+        float: left;
+        width: 70%;
+        margin-right: 0;
+    }
+    .menu {
+        width: 10%;
+        margin-right: 8rem;
+    }
+    header nav ul, header nav div {
+        display: none;
+    }
+    .one section {
+        padding: 1rem;
+    }
+    .one span {
+        font-size: 1.4rem;
+    }
+    .one section form input {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .one section form button {
+        width: 100%;
+        font-size: 2rem;
+    }
+    .one section p {
+        font-size: 2.3rem;
+    }
+    .two {
+        padding: 4rem 2rem;
+    }
+    .two div i {
+        font-size: 3rem;
+    }
+    .two div h3 {
+        font-size: 2.5rem;
+    }
+    .two div p {
+        width: 400px;
+        font-size: 1.8rem;
+    }
+    .two div a {
+        font-size: 2rem;
+    }
+}

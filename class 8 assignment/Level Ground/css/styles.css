@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-one: #66768A;
+    --color-two: #DBDFE2;
+    --color-three: #161F2A;
+    --white: #FFFFFF;
+    --black: #19212C;
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+header, .one {
+    background-color: var(--color-one);
+}
+header {
+    height: 100px;
+    padding: 2rem 2rem;
+}
+header nav ul, header nav h1, header nav div {
+    float: left;
+    width: 30%;
+    margin-left: 3rem;
+}
+header nav ul li{
+    float: left;
+    width: 20%;
+}
+header nav ul li a {
+    color: var(--white);
+}
+header nav h1 {
+    text-align: center;
+    color: var(--white);
+}
+header nav div button {
+    background: var(--white);
+    float: right;
+    padding: .6rem;
+    border: none;
+    border-radius: .2rem;
+    color: var(--color-one);
+    font-size: .8rem;
+    font-weight: bold;
+}
+section {
+    height: 60vh;
+    text-align: center;
+}
+.one {
+    width: 100%;
+    color: var(--white);
+    padding: 2rem 28rem;
+    line-height: 1.2;
+}
+.one h1 {
+    font-size: 3rem;
+    padding: 2rem;
+}
+.one p {
+    font-size: 1.5rem;
+    padding: 1rem 2rem 2rem;
+}
+.one div {
+    margin-bottom: 8rem;
+    font-size: 2rem;
+}
+.one div a {
+    font-weight: 200;
+    color: var(--white);
+}
+.one > span {
+    color: var(--color-three);
+    font-size: 1rem;
+}
+.two, .four {
+    background-color: var(--white);
+    color: var(--color-three);
+    text-align: center;
+    padding: 10rem 30rem;
+}
+.two h2, .four h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.two p, .four p {
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+.three {
+    background-color: var(--color-two);
+    height: 90vh;
+    text-align: center;
+    padding: 2rem;
+    color: var(--color-three);
+}
+.three > div {
+    float: left;
+    width: 40%;
+    margin: 10rem 5rem;
+}
+.design {
+    width: 400px;
+    height: 200px;
+    background-color: var(--color-one);
+    margin: 0 auto;
+}
+.three > div h3 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+.three > div p {
+    font-size: 1rem;
+    padding: 0 6rem;
+}
+.btn {
+    border: 1px solid var(--color-three);
+    background-color: transparent;
+    color: var(--color-three);
+    font-weight: bold;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+.footer {
+    background-color: var(--color-three);
+    color: var(--white);
+    height: 40vh;
+    padding: 3rem;
+}
+.footer .left, .footer .right {
+    float: left;
+    width: 40%;
+    /* border: 1px solid white; */
+    height: 150px;
+}
+.right {
+    margin-left: 19rem;
+    padding-left: 30rem;
+    line-height: 1.3;
+}
+.right h4 {
+    font-size: 1rem;
+}
+.up {
+    border-bottom: 1px solid var(--white);
+    padding-bottom: 12rem;
+}
+.det h4 {
+    color: var(--color-one);
+    padding: .5rem 0;
+}
+.det div a {
+    color: white;
+    padding: .2rem 1.2rem 0 0;
+}
+.social {
+    color: var(--white);
+    font-size: 1.5rem;
+}
+.social i {
+    padding-right: .5rem;
+}
+.bottom {
+    padding-top: 1rem;
+}
+.bottom * {
+    float: left;
+    width: 50%;
+}
+.bottom p {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.bottom h1 {
+    text-align: end;
+}

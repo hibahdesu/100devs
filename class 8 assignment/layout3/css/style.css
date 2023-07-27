@@ -1,0 +1,97 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background-color: black;
+  padding: 32px 100px;
+  color: white;
+  height: 70px;
+}
+header nav *{
+  width: 25%;
+  float: left;
+}
+header ul {
+  width: 50%;
+}
+ul li {
+  float: left;
+  width: 8%;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+form input {
+  width: 40%;
+}
+.left {
+  margin-top: 24px;
+}
+.left img{
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+}
+.one section {
+  float: left;
+  width: 50%;
+}
+.right img {
+  width: 40%;
+  height: 180px;
+  float: left;
+  border: 1px solid black;
+  margin: 22px;
+}
+h3 {
+  margin:24px 16px;
+}
+.two section {
+  float: left;
+  width: 30%;
+  border: 1px solid black;
+  height: 500px;
+  padding: 32px;
+  margin: 0 16px;
+}
+.two section img {
+  width: 300px;
+  height: 300px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media screen and (max-width: 767px) {
+  .two section, .one section {
+    width: 100%;
+  }
+}
