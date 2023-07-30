@@ -12,6 +12,9 @@
     --white-two: #FFFFFF;
     --font-color: #aaa;
 }
+body {
+    background-color: var(--white);
+}
 li {
     list-style: none;
 }
@@ -21,7 +24,7 @@ a {
 .container, .center {
     padding: 1.8rem 6rem;
 }
-.two, .logos {
+.two, .logos, .three {
     background-color: var(--white);
 }
 .container {
@@ -111,35 +114,36 @@ header nav .right li a {
     width: 120px;
     height: 120;
 }
-.two {
+.two, .three, .five {
     display: flex;
     justify-content: center;
     /* align-items: center; */
     /* flex-wrap: wrap; */
-    gap: 5rem;
+    gap: 6rem;
+    margin: 4rem 0;
 }
-.two-left {
+.two-left, .three-right {
     padding: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     width: 80%;
 }
-.two-left span {
+.two-left span, .three-right span, .five .five-details > span {
     color: var(--navy);
     font-size: 1.2rem;
 } 
-.two-left h3 {
+.two-left h3, .three-right h3, .four h3, .five .five-details > h3 {
     font-size: 3rem;
     font-weight: 500;
     color: var(--navy);
 }
-.two-left p {
+.two-left p, .three-right p, .four p, .five .five-details > p {
     font-size: 1.5rem;
-    color: var(--navy);
-    margin: 2rem 0;
+    color: grey;
+    margin: 1.5rem 0;
 }
-.two-left button {
+.two-left button, .three-right button, .mix-btn button {
     align-self: start;
     padding: 1.5rem 4rem;
     color: var(--white);
@@ -149,7 +153,12 @@ header nav .right li a {
     border-radius: .3rem;
     background-color: var(--navy);
     box-shadow: 2px 2px 12px rgba(0, 0, 0, .4 );
-    margin-top: 5rem;
+    margin-top: 4rem;
+}
+.mix-btn  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .two-right {
     display: flex;
@@ -173,17 +182,17 @@ header nav .right li a {
     justify-content: center;
     align-items: center;
 }
-.two-right > div .img span {
+.two-right > div .img span, .three-con span, .five-con span{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 }
-.two-right > div .img span {
+.two-right > div .img span, .three-con span, .five-con span{
     font-size: 1.4rem;
 }
-.two-right > div .img span i {
+.two-right > div .img span i, .three-con span i, .five .five-con span i {
     font-size: 2.5rem;
 }
 .two-right > div .details {
@@ -202,4 +211,93 @@ header nav .right li a {
 .two-right > div:first-child .img{
     background-color: var(--navy);
     color: var(--white);
+}
+.mix {
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+}
+.three .three-img, .five .five-img {
+    width: 1400px;
+    height: 800px;
+    background-color: var(--gray);
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.five .five-img {
+    height: 700px;
+}
+.three-con, .five .five-con {
+    width: 300px;
+    height: 200px;
+    background-color: var(--navy);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, .3);
+}
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0 0;
+}
+.four p {
+    width: 920px;
+    text-align: center;
+}
+.five-details {
+    width: 1200px;
+}
+.five-details .five-box {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.five-details .five-box > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.five-details .five-box div .box {
+    width: 40px;
+    height: 40px;
+    border: 4px solid var(--navy);
+    border-radius: .5rem;
+}
+.box-info {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.box-info h3 {
+    font-size: 1.5rem;
+}
+.box-info p {
+    color: gray;
+    font-size: 1.2rem;
+}
+.circles-container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 2rem;
+    margin-top: 6rem;
+}
+.circles-container .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 3px solid var(--navy);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
 }
