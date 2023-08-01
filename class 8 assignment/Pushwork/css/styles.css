@@ -406,3 +406,115 @@ header nav .right li a {
 .ocho-box .box-con p{
     font-size: 2rem;
 }
+.nine {
+    background: var(--navy);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 4rem 0; */
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.nine .nine-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.nine .nine-left span {
+    color: gray;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+.nine .nine-left h3 {
+    color: var(--white-two);
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+.nine .nine-right {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+.nine .nine-right .btn-left, .nine .nine-right .btn-right {
+    padding: 1.5rem 4rem;
+    /* color: var(--white); */
+    font-weight: bold;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: .3rem;
+    background-color: var(--navy);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, .4 );
+    /* margin-top: 4rem; */
+    text-transform: uppercase;
+}
+.nine .nine-right .btn-left {
+    color: var(--white-two);
+    background-color: var(--dark-gray);
+}
+.nine .nine-right .btn-right {
+    color: var(--navy);
+    background-color: var(--white);
+    padding: 1.5rem 6rem;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.footer div {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.footer div h4 {
+    text-transform: uppercase;
+    color: var(--navy);
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.footer div p {
+    color: gray;
+    font-size: 1.5rem;
+    width: 360px;
+}
+.footer div .choices {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.footer div .choices .choice-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+.footer div .choices .choice-container .choice-box {
+    border: 3px solid var(--navy);
+    width: 40px;
+    height: 40px;
+    border-radius: .4rem;
+}
+.footer div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: gray;
+    font-size: 1.5rem;
+}
+.footer div ul li {
+    text-transform: capitalize;
+}
+.footer-dif h4 {
+    visibility: hidden;
+}
+.footer div .social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
