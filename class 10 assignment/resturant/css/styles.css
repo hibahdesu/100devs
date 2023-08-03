@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --orange: #FF8800;
+    --black: #0D0D25;
+}
+.container {
+    padding: 2rem 8rem;
+}
+li {
+    list-style: none;
+}
+a, button {
+    text-decoration: none;
+    cursor: pointer;
+}
+main {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+}
+header nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 3rem;
+}
+header nav ul li a , header nav ul li i{
+    cursor: pointer;
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.one {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 4rem;
+}
+.one h1 {
+    width: 700px;
+    font-size: 6rem;
+    text-transform: capitalize;
+}
+.one form {
+    display: flex;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, .3);
+}
+.one form input {
+    width: 500px;
+    background-color: white;
+    color: black;
+    border-top-left-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+    border: 1px solid rgba(128, 128, 128, 0.571);
+    padding: 1rem 2rem;
+}
+.one form button {
+    padding: 1rem 1.5rem;
+    border: none;
+    background-color: var(--orange);
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    color: white;
+    display: flex; 
+    gap: .5rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.one .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    color: black;
+    font-size: 1.5rem;
+}
+.one .icons i {
+    color: var(--orange);
+    font-size: 1.8rem;
+}
+
