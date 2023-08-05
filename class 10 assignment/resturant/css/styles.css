@@ -147,15 +147,15 @@ header nav ul li a , header nav ul li i{
     text-align: center;
     height: 100vh;
 }
-.three span, .three h3, .three ul li {
+.span, .three h3, .three ul li {
     text-transform: capitalize;
 }
-.three span {
+.span {
     color: var(--orange);
     font-size: 1.5rem;
     font-weight: 600;
 }
-.three h3 {
+.header{
     color: black;
     font-size: 5rem;
     margin-top: 1rem;
@@ -207,4 +207,65 @@ header nav ul li a , header nav ul li i{
     width: 15px;
     height: 15px;
     opacity: 1;
+}
+.five {
+    text-align: center;
+    padding-top: 6rem;
+}
+.call i {
+    padding: 1rem;
+    border-radius: 50%;
+    color: var(--orange);
+    font-size: 1.8rem;
+    border: 1px solid var(--orange);
+}
+.five p {
+    color: black;
+    font-size: 1.2rem;
+    padding: 1rem 0 .6rem;
+    text-transform: capitalize;
+}
+.five h4 {
+    font-size: 2rem;
+    color: var(--orange);
+}
+.details, .pic {
+    clear: both;
+}
+.details {
+    padding: 2rem 0 2rem 20rem;
+}
+.details div{
+    float: left;
+    width: 50%;
+    /* margin: 0 3rem; */
+    text-align: left;
+}
+.details div span {
+    font-size: 1rem;
+    font-weight: 500;
+}
+.details div p {
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.pic {
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.pic img {
+    max-width: 100%;
+    width: 800px;
+}
+.pic div i {
+    color: var(--orange);
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    font-weight: 700;
+    border: 1px solid var(--orange);
 }
