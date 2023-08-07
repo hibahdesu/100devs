@@ -302,5 +302,10 @@ header nav ul li a , header nav ul li i{
     text-transform: none;
 }
 @media screen and (max-width: 768px) {
-    
+    .container {
+        padding: 1rem;
+    }
+    main {
+        height: auto;
+    }
 }
