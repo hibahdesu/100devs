@@ -308,4 +308,8 @@ header nav ul li a , header nav ul li i{
     main {
         height: auto;
     }
+    .two-style {
+        
+        width: 100%;
+    }
 }
