@@ -188,11 +188,11 @@ header nav ul li a , header nav ul li i{
     height: 400px;
 }
 .dots {
-    margin: 0 42rem;
+    margin: 0 25rem 0 45rem;
 }
 .dots .dot {
     float: left;
-    width: 8%;
+    width: 6%;
     margin-left: .2rem;
 }
 .dots .dot div {
@@ -269,3 +269,36 @@ header nav ul li a , header nav ul li i{
     font-weight: 700;
     border: 1px solid var(--orange);
 }
+.six {
+    text-align: center;
+    margin: 4rem 0;
+    text-transform: capitalize;
+    clear: both;
+}
+.six .person img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.six .person h4 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 1.1;
+}
+.six .person span {
+    color: gray;
+}
+.stars {
+    margin: 1.5rem 0;
+    color: gold;
+    font-size: 1.4rem;
+}
+.six .person p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: rgb(92, 92, 92);
+    margin: 0 8rem 4rem;
+    text-transform: none;
+}
+
