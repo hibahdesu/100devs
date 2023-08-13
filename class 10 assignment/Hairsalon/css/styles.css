@@ -180,14 +180,12 @@ nav > a, nav ul li a {
   z-index: 10;
   left: 180px;
   top: -30px;
-  /* border: 1px solid black; */
 }
 .two .box .style .fas {
   position: absolute;
   font-size: 5rem;
   z-index: 9999;
   left: 200px;
-  /* border: 1px solid black; */
 }
 .two .box  h3 {
   font-size: 1.4rem;
