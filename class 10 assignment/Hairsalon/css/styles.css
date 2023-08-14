@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container {
-  padding: 4rem 14rem;
+  padding: 4rem 10rem;
 }
 header {
     height: 90px;
@@ -90,6 +90,7 @@ nav > a, nav ul li a {
   align-items: center;
   gap: .5rem;
   align-self: start;
+  text-transform: capitalize;
 }
 .btn hr {
   width: 10px;
@@ -154,12 +155,15 @@ nav > a, nav ul li a {
   color: black;
   background-color: white;
 }
+.two, .three {
+  clear: both;
+}
 .two {
-  margin-top: 20rem;
-  margin-bottom: 4rem;
+  margin-top: 15rem;
+  margin-bottom: 6rem;
   background-color: white;
   text-align: center;
-  height: 80vh;
+  /* height: 80vh; */
   /* border: 1px solid black; */
 }
 .two .box {
@@ -173,20 +177,26 @@ nav > a, nav ul li a {
 }
 .two .box .style .cir {
   position: absolute;
-  background-color: rgb(221, 218, 218);
-  width: 80px;
-  height: 80px;
+  background-color: rgb(249, 244, 244);
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   z-index: 10;
-  left: 180px;
-  top: -30px;
+  left: 160px;
+  top: -50px;
+  /* border: 1px solid black; */
 }
-.two .box .style .fas {
+.two .box .style img {
   position: absolute;
-  font-size: 5rem;
+  width: 100px;
+  height: 100px;
+  /* border-radius: 50%; */
   z-index: 9999;
-  left: 200px;
+  left: 180px;
+  top: -40px;
+  /* border: 1px solid black; */
 }
+
 .two .box  h3 {
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -198,4 +208,39 @@ nav > a, nav ul li a {
   padding: 0 4rem;
   line-height: 1.8;
 }
-  
+.three {
+  background-color: #eee;
+  margin: 20rem 0;
+  height: 70vh;
+}
+.three div {
+  float: left;
+  width: 45%;
+  margin-left: 0;
+}
+.three div img {
+  width: 600px;
+}
+.three .left-side {
+  margin-right: 4rem;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.three .left-side h3 {
+  font-size: 3rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  line-height: 1.4;
+} 
+.three .left-side p {
+  font-size: 1.2rem;
+  color: gray;
+}
+.three .left-side .btn {
+  color: white;
+  background-color: black;
+  align-self: start;
+}  
