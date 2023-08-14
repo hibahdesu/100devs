@@ -155,7 +155,7 @@ nav > a, nav ul li a {
   color: black;
   background-color: white;
 }
-.two, .three, .four {
+.two, .three, .four, .five {
   clear: both;
 }
 .two {
@@ -191,7 +191,6 @@ nav > a, nav ul li a {
   z-index: 9999;
   left: 180px;
   top: -40px;
-  /* border: 1px solid black; */
 }
 .two .box  h3 {
   font-size: 1.4rem;
@@ -205,7 +204,7 @@ nav > a, nav ul li a {
   line-height: 1.8;
 }
 .three {
-  background-color: #eee;
+  background-color: #F1F2F4;
   margin: 20rem 0 5rem;
   height: 70vh;
 }
@@ -240,6 +239,9 @@ nav > a, nav ul li a {
   background-color: black;
   align-self: start;
 }  
+.four {
+  margin-bottom: 50rem;
+}
 .four .box {
   float: left;
   width: 30%;
@@ -263,4 +265,47 @@ nav > a, nav ul li a {
   font-size: 1rem;
   margin-bottom: .5rem;
   letter-spacing: 2px;
+}
+.five .box{
+  background-color: #F1F2F4;
+  height: 50vh;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+}
+.five .box div {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 70%;
+}
+.five .box {
+  margin: 0 4rem;
+}
+.five .box .right-side {
+  text-align: right;
+  width: 30%;
+}
+.five .box .right-side img {
+  width: 360px;
+  height: 400px;
+}
+.five .box .left-side {
+  padding: 4rem 0 4rem 10rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.five .box .left-side > span {
+  font-size: 1.2rem;
+}
+.five .box .left-side h3 {
+  font-size: 3rem;
+  line-height: 1.6;
+  font-weight: 100;
+}
+.five .box .left-side .btn {
+  color: white;
+  background-color: black;
 }
