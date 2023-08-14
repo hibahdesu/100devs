@@ -155,7 +155,7 @@ nav > a, nav ul li a {
   color: black;
   background-color: white;
 }
-.two, .three, .four, .five {
+.two, .three, .four, .five, .six, .photos {
   clear: both;
 }
 .two {
@@ -308,4 +308,36 @@ nav > a, nav ul li a {
 .five .box .left-side .btn {
   color: white;
   background-color: black;
+}
+.six  {
+  text-align: center;
+}
+.six  h3{
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 1.2;
+  font-weight: 100;
+  margin-bottom: 2rem;
+}
+.six hr {
+  color: black;
+  background-color: black;
+  width: 50px;
+  height: 6px;
+  margin: 0 auto;
+}
+.photos {
+  overflow: hidden;
+  margin: 5rem 0;
+}
+.photos div {
+  float: left;
+  width: 30%;
+  margin-right: 1rem;
+  height: 170vh;
+}
+.photos div img {
+  width: 100%;
 }
