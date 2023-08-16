@@ -47,9 +47,9 @@ main section, .bottom section{
   }
 }
 /* On tablet, please make the sections in main stack  */
-@media all and (min-width: 481px) and (max-width: 768px) {
-  main section, .bottom section {
-    width: 50%;
+@media all and (max-width: 768px) {
+  main section{
+    width: 100%;
   }
 }
 /* On laptop, please keep the normal layout, but everything should be light green */
