@@ -54,13 +54,13 @@ main section, .bottom section{
 }
 /* On laptop, please keep the normal layout, but everything should be light green */
 @media all and (min-width: 769px) {
-  main section, .bottom section{
+  main, .bottom {
     background-color: lightgreen;
   }
 }
 /* On larger screens, please keep the normal layout, but everything should be light blue */
 @media all and (min-width: 1025px) {
-  main section, .bottom section{
+  main, .bottom {
     background-color: lightblue;
   }
 }
