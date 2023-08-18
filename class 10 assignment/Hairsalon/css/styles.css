@@ -20,11 +20,10 @@ li {
 nav h1, nav ul, nav > a {
     float: left;
     width: 10%;
-    /* border: 1px solid black; */
 }
-/* nav h1 {
-    margin-right: 1rem;
-} */
+nav .bar {
+  display: none;
+}
 nav > a {
     width: 10%;
 }
@@ -56,6 +55,7 @@ nav > a, nav ul li a {
     /* clip-path: circle(100% at 50% 30%); */
     border-bottom-right-radius: 15%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     color: white;
@@ -340,4 +340,114 @@ nav > a, nav ul li a {
 }
 .photos div img {
   width: 100%;
+}
+@media all and (max-width: 768px) {
+  .container {
+    padding: 2rem 6rem;
+  }
+  header {
+    height: 80px;
+    padding: 2rem 4rem;
+    text-transform: uppercase;
+}
+  nav ul {
+    display: none;
+  }
+  nav .bar {
+    display: inline-block;
+    text-align: right;
+    font-size: 2rem;
+  }
+  nav h1, nav .bar{
+    float: left;
+    width: 50%;
+}
+  nav > a {
+    display: none;
+  }
+  .one {
+    clip-path: none;
+    border-bottom-right-radius: 0;
+    background-size: contain;
+}
+.left-side {
+  margin-left: 2rem;
+  height: 100vh;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.left-side .one-details h1 {
+  font-size: 4rem;
+}
+.left-side .one-details p {
+  font-size: 1rem;
+}
+.de {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.right-side p {
+    font-size: .8rem;
+    padding-right: 1.8rem;
+    letter-spacing: 2px;
+    padding-bottom: 15rem;
+}
+.icons {
+  position: absolute;
+  bottom: 350px;
+  right: 60px;
+}
+.icons i {
+  padding: .8rem;
+  border-radius: 50%;
+  color: black;
+  background-color: white;
+}
+.two .box {
+  width: 100%;
+  margin-bottom: 10rem;
+}
+.three div, .photos div {
+  width: 100%;
+}
+.three div img {
+  width: 500px;
+}
+.three .left-side {
+  margin-right: 0;
+  padding: 2rem;
+}
+.three {
+  background-color: #F1F2F4;
+  margin: 10rem 0 5rem;
+  height: 160vh;
+}
+.four .box {
+  width: 100%;
+  margin-bottom: 6rem;
+}
+.five {
+  height: 50vh;
+}
+.five .box div {
+  width: 80%;
+}
+.five .box {
+  margin: 0 1rem;
+}
+.five .box .right-side {
+  display: none;
+}
+.five .box .right-side img {
+  display: none;
+}
+.five .box .left-side {
+  padding: 2rem;
+  height: 60vh;
+}
 }
