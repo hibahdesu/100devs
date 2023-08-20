@@ -1,26 +1,37 @@
-let total = 0
+//Simple Calculator
+let count = 0;
 
-document.querySelector('#pumpkin').addEventListener('click', makeZero)
-document.querySelector('#dominosPizza').addEventListener('click', jumanji)
-document.querySelector('#zebra').addEventListener('click', add9)
-document.querySelector('#cantThinkOfAnything').addEventListener('click', sub2)
+let pumpkin = document.querySelector('#pumpkin');
+let dominosPizza = document.querySelector('#dominosPizza');
+let zebra = document.querySelector('#zebra');
+let cantThinkOfAnything = document.querySelector('#cantThinkOfAnything');
+let placeToPutResult = document.querySelector('#placeToPutResult');
 
-function makeZero() {
-  total = 0
-  document.querySelector('#placeToPutResult').innerText = total
+pumpkin.addEventListener('click', zero)
+
+dominosPizza.addEventListener('click', addTwo)
+
+zebra.addEventListener('click', addThree)
+
+cantThinkOfAnything.addEventListener('click', subTwo)
+
+function zero() {
+  count = 0;
+  placeToPutResult.innerHTML = count
 }
 
-function jumanji() {
-  total = total + 3
-  document.querySelector('#placeToPutResult').innerText = total
+function addTwo() {
+  count += 2;
+  placeToPutResult.innerHTML = count
 }
 
-function add9() {
-  total = total + 9
-  document.querySelector('#placeToPutResult').innerHTML = total
+function addThree() {
+  count += 3;
+  placeToPutResult.innerHTML = count
 }
 
-function sub2() {
-  total = total - 2
-  document.querySelector('#placeToPutResult').innerHTML = total
+function subTwo() {
+  count -= 2;
+  placeToPutResult.innerHTML = count
 }
+
