@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root {
-
-}
 a {
     text-decoration: none;
+}
+section {
+    color: white;
 }
 .hidden {
     display: none;
@@ -60,7 +60,7 @@ body {
     color: white;
     font-weight: bold;
 }
-.brief {
+.info {
     color: white;
     display: flex;
     flex-direction: column;
