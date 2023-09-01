@@ -28,13 +28,19 @@ else if (age >= 30) {
 
 //--- Harder
 //On click of the h1
-let h1 = document.querySelector('h1');
-h1.addEventListener('click', check);
 //Take the value from the input
+//Place the result of the conditional in the paragraph
+
+let h1 = document.querySelector('h1');
+
+h1.addEventListener('click', check);
+
 function check() {
     let input = document.querySelector('input').value;
-    let p = document.querySelector('p')
+
+    let p = document.querySelector('p');
+    
     p.innerText = input;
 }
 
-//Place the result of the conditional in the paragraph
+
