@@ -6,6 +6,10 @@
 a {
     text-decoration: none;
 }
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
 section {
     color: white;
 }
@@ -22,7 +26,16 @@ body {
     background-color: black;
 }
 .header {
-    height: 60px;
+    height: 70px;
+    justify-content: space-between;
+    color: white;
+    font-size: 2rem;
+    align-items: center;
+    padding: 1rem 4rem;
+    cursor: pointer;
+}
+header h4 {
+    font-weight: 500;
 }
 .background {
     background-image: url('../img/82a47526700b03819887b377c6c97818.jpg');
@@ -90,4 +103,35 @@ body {
 }
 .brief p {
     font-size: 1.4rem;
+}
+.music {
+    gap: 2rem;
+}
+.left_side {
+    gap: 2rem;
+    width: 70%;
+}
+.audio_container {
+    flex-direction: column;
+    height: 200px;
+}
+.audio_container .box {
+    width: 150px;
+    height: 150px;
+    border-radius: .5rem;
+}
+.audio_container .box img {
+    width: 150px;
+    height: 150px;
+}
+.right_side {
+    width: 28%;
+    border: 1px solid lightsteelblue;
+    height: 800px;
+    border-radius: .5rem;
+}
+.right_side h3 {
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
 }
