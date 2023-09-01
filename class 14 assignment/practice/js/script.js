@@ -23,3 +23,4 @@ function sharleenNext(){
 	claire.classList.add('hidden')
 	sharleen.classList.toggle('hidden')
 }
+
