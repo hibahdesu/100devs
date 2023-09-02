@@ -52,7 +52,7 @@ function multiplys(n1, n2, n3) {
     let result = n1 * n2 * n3;
 
     if (result % 3 === 0) {
-        
+
         alert('ZEBRA')
     }
     else {
@@ -68,8 +68,11 @@ multiplys(10, 39);
 //Create a function that takes in a word and a number. 
 // Console log the word x times where x was the number passed in
 function wordAndNumber(w, n) {
-    for (let i=1 ;i < n; i++) {
+    for (let i = 1; i < n; i++) {
 
         console.log(w);
     }
 }
+
+//Calling the function 
+wordAndNumber('Hola', 19)
