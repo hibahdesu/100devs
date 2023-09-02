@@ -8,12 +8,14 @@ function snacks() {
     let input = document.querySelector('input').value;
 
     let stops = document.querySelector('#stops');
+    
+    stops.innerText = '';
 
     for (let i = 1; i <= Number(input); i++) {
 
         console.log("Stop");
-        
-        stops.innerText += ' Stop Snacking'
+
+        stops.innerText += ' Stop Snacking!'
     }
 }
 
