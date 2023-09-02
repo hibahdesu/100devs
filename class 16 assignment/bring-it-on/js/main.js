@@ -27,7 +27,7 @@ function divides(n1, n2) {
 }
 
 //Calling the function
-divides(10, 2);
+console.log(divides(10, 2));
 
 // *Conditionals*
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
@@ -39,7 +39,7 @@ function addTwoNum(n1, n2) {
         alert("Jumanji");
     }
     else {
-        result
+        alert(result)
     }
 }
 
@@ -51,11 +51,12 @@ addTwoNum(19, 29);
 function multiplys(n1, n2, n3) {
     let result = n1 * n2 * n3;
 
-    if (result % 3) {
+    if (result % 3 === 0) {
+        
         alert('ZEBRA')
     }
     else {
-        result
+        alert(result)
     }
 }
 
@@ -64,4 +65,11 @@ multiplys(10, 39);
 
 
 //*Loops*
-//Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
+//Create a function that takes in a word and a number. 
+// Console log the word x times where x was the number passed in
+function wordAndNumber(w, n) {
+    for (let i=1 ;i < n; i++) {
+
+        console.log(w);
+    }
+}
