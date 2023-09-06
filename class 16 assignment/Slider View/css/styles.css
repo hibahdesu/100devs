@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 100vh;
+    position: relative;
+}
+.slide_container {
+    display: flex;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.slide_container::-webkit-scrollbar {
+    display: none;
+}
+.slide_container .slide {
+    min-width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+.slide h1 {
+    font-size: 8rem;
+    color: cornsilk;
+}
+.one, .two, .three, .four {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one {
+    background-image: url('../images/aron-van-de-pol-tZDtyUrYrFU-unsplash.jpg');
+}
+.two {
+    background-image: url('../images/ken-cheung-VbLTNceBTFE-unsplash.jpg');
+}
+.three {
+    background-image: url('../images/manuel-cosentino-n--CMLApjfI-unsplash.jpg');
+}
+.four {
+    background-image: url('../images/rachel-davis-tn2rBnvIl9I-unsplash.jpg');
+}
+.image {
+    position: absolute;
+    bottom: -10px;
+    left: 600px;
+}
+.image img {
+    width: 600px;
+}
