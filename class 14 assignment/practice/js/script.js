@@ -206,7 +206,6 @@ Array.from(play).forEach((el) => {
                     e.target.classList.add('fa-pause');
                     // imageMove();
                     inner.classList.add('play')
-                    
                 }
                 else {
                     musicPlay.pause();
@@ -214,29 +213,8 @@ Array.from(play).forEach((el) => {
                     // play.classList.add('fa-play');
                     playMusic();
                     inner.classList.remove('play')
-                    
-                    
                 }
     })
 })
 
-// let audio = document.querySelectorAll('.audio');
-// audio = new Audio(songs[index].src) ;
-// Array.from(audio).forEach((e) => {
-//     e.target = new Audio(songs[index].src);
-//     e.play()
-// })
-// audio.play()
 
-// play.addEventListener('click', () => {
-//     if (musicPlay.paused || musicPlay.currentTime <= 0) {
-//         musicPlay.play();
-//         play.classList.remove('fa-play');
-//         play.classList.add('fa-pause');
-//     }
-//     else {
-//         musicPlay.pause();
-//         play.classList.remove('fa-pause');
-//         play.classList.add('fa-play');
-//     }
-// });
