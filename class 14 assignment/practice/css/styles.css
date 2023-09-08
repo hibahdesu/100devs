@@ -145,11 +145,21 @@ header h4 {
     border: 1px solid #b0c4de;
     height: 800px;
     border-radius: .5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
 }
 .right_side h3 {
     color: white;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 6rem;
+}
+.right_side .img_contaier {
+    position: absolute;
+    left: 160px;
+    top: 30px;
 }
 .music_container {
     background-color: #fff;
@@ -189,7 +199,7 @@ header h4 {
     animation: rotate 3s linear infinite;
     animation-play-state: paused;
 }
-.music_container .img_contaier.play img {
+.inner.play img {
     animation-play-state: running;
 }
 @keyframes rotate {
@@ -200,6 +210,9 @@ header h4 {
     to {
         transform: rotate(360deg);
     }
+}
+.right_side {
+    padding: 2rem;
 }
 .play-nav {
     display: flex;
@@ -249,6 +262,11 @@ header h4 {
     color: lightsteelblue;
     margin-right: 20px;
 }
+/* .music_items img {
+    width: 12px;
+    height: 12px;
+    margin-left: 25px;
+} */
 .songItem h4 {
     font-size: 25px;
     margin-left: 25px;
