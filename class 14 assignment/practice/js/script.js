@@ -60,6 +60,7 @@ function showSeries() {
 let musicPlay = new Audio('../audio/one-piece-song_op01-we-are-hiroshi-kitadani.mp3')
 // musicPlay.play();
 
+
 const songs = [
     {
         id: '01',
@@ -162,10 +163,15 @@ const songs = [
 let music_container = document.querySelectorAll('.songItem');
 console.log(music_container);
 
+
+let music_img = document.querySelectorAll('.img_contaier');
+
+
 Array.from(music_container).forEach((e, i) => {
     e.getElementsByTagName('img')[0].src = songs[i].img;
     e.getElementsByTagName('h4')[0].innerHTML = songs[i].songName;
     e.getElementsByTagName('span')[0].innerHTML = songs[i].id;
+    
 });
 
 let play = document.querySelectorAll('.play');
@@ -177,33 +183,40 @@ const playMusic = () => {
     })
 }
 
-let index = 0;
+const imageMove = () => {
+    Array.from(music_img).forEach((e) => {
+        e.classList.add('playing');
+        e.classList.remove('no_play');
+    })
+}
 
+
+let index = 0;
+let inner = document.querySelector('.inner')
 Array.from(play).forEach((el) => {
     el.addEventListener('click', (e) => {
         index = e.target.id;
         console.log(index);
+        
         if (musicPlay.paused || musicPlay.currentTime <= 0) {
                     musicPlay.src = songs[index - 1].src;
                     musicPlay.play();
                     // playMusic();
                     e.target.classList.remove('fa-play');
                     e.target.classList.add('fa-pause');
+                    // imageMove();
+                    inner.classList.add('play')
+                    
                 }
                 else {
                     musicPlay.pause();
                     // play.classList.remove('fa-pause');
                     // play.classList.add('fa-play');
                     playMusic();
+                    inner.classList.remove('play')
+                    
+                    
                 }
-        
-        // e.target.classList.remove('fa-play');
-        // e.target.classList.add('fa-pause');
-        // let musicNow = e.getElementsByTagName('audio')[0].src = songs[i].src;
-        
-        // musicPlay.play();
-        // musicPlay.src = '../audio/one-piece-song_a-thousand-dreamers-8.mp3';
-        // musicPlay.play();
     })
 })
 
