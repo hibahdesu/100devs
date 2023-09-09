@@ -64,100 +64,125 @@ let musicPlay = new Audio('../audio/one-piece-song_op01-we-are-hiroshi-kitadani.
 const songs = [
     {
         id: '01',
-        songName: 'Open 15',
-        img: '../img/82a47526700b03819887b377c6c97818.jpg',
-        src: '../audio/one-piece-song_.mp3'
+        songName: 'We Are! きただにひろし',
+        img: '../img/open1.jpeg',
+        src: '../audio/open1.mp3',
+        appearedIn: 'Opening 1',
+        singer: '北谷洋',
     },
     {
         id: '02',
-        songName: 'We Are Hiroshi Kitadani',
-        img: '../img/82a47526700b03819887b377c6c97818.jpg',
-        src: '../audio/one-piece-song_a-thousand-dreamers-8.mp3'
+        songName: 'Believe',
+        img: '../img/open2.jpeg',
+        src: '../audio/open2.mp3',
+        appearedIn: 'Opening 2',
+        singer: 'Folder5',
     },
     {
         id: '03',
-        songName: 'We Are Hiroshi Kitadani',
-        img: '../img/82a47526700b03819887b377c6c97818.jpg',
-        src: '../audio/one-piece-song_ed01-memories-maki-otsuki.mp3'
+        songName: 'The Babystar ヒカリヘ',
+        img: '../img/open3.jpeg',
+        src: '../audio/open3.mp3',
+        appearedIn: 'Opening 3',
+        singer: '向著阳光',
     },
     {
         id: '04',
-        songName: 'We Are Hiroshi Kitadani',
-        img: '../img/82a47526700b03819887b377c6c97818.jpg',
-        src: '../audio/one-piece-song_ed02-run-run-run-maki-otsuki.mp3'
+        songName: 'BON VOYAGE',
+        img: '../img/open4.jpeg',
+        src: '../audio/open4.mp3',
+        appearedIn: 'Opening 1',
+        singer: 'Bon-Bon Blanco',
     },
     {
         id: '05',
-        songName: 'We Are Hiroshi Kitadani',
-        img: '../img/82a47526700b03819887b377c6c97818.jpg',
-        src: '../audio/one-piece-song_ed02-run-run-run-maki-otsuki.mp3'
+        songName: 'ココロのちず Kokoro no Chizu',
+        img: '../img/open5.jpeg',
+        src: '../audio/open5.mp3',
+        appearedIn: 'Opening 5',
+        singer: '心之航海图 BOYSTYLE',
     },
     {
         id: '06',
-        songName: 'We Are Hiroshi Kitadani',
-        img: '../img/82a47526700b03819887b377c6c97818.jpg',
-        src: '../audio/one-piece-song_ed02-run-run-run-maki-otsuki.mp3'
+        songName: 'BRAND NEW WORLD',
+        img: '../img/open6.jpeg',
+        src: '../audio/open6.mp3',
+        appearedIn: 'Opening 6',
+        singer: 'D-51',
     },
     {
         id: '07',
-        songName: 'We Are Hiroshi Kitadani',
-        img: '../img/82a47526700b03819887b377c6c97818.jpg',
-        src: '../audio/one-piece-song_ed02-run-run-run-maki-otsuki.mp3'
+        songName: 'ウィーアー! WE ARE!',
+        img: '../img/open7.jpeg',
+        src: '../audio/open7.mp3',
+        appearedIn: 'Opening 7',
+        singer: '草帽海贼团 7人',
     },
     {
         id: '08',
-        songName: 'We Are Hiroshi Kitadani',
-        img: '../img/82a47526700b03819887b377c6c97818.jpg',
-        src: '../audio/one-piece-song_ed02-run-run-run-maki-otsuki.mp3'
+        songName: 'Crazy Rainbow',
+        img: '../img/open8.jpeg',
+        src: '../audio/open8.mp3',
+        appearedIn: 'Opening 8',
+        singer: '疯狂彩虹 Tackey and Tsubasa',
     },
     {
-        id: '9',
-        songName: 'We Are Hiroshi Kitadani',
-        img: '../img/82a47526700b03819887b377c6c97818.jpg',
-        src: '../audio/one-piece-song_ed02-run-run-run-maki-otsuki.mp3'
+        id: '09',
+        songName: 'Jungle',
+        img: '../img/open9.jpeg',
+        src: '../audio/open9.mp3',
+        appearedIn: 'Opening 9',
+        singer: 'P-5050',
     },
     {
         id: '10',
-        songName: 'We Are Hiroshi Kitadani',
-        img: '../img/82a47526700b03819887b377c6c97818.jpg',
-        src: '../audio/one-piece-song_ed02-run-run-run-maki-otsuki.mp3'
+        songName: 'WE ARE',
+        img: '../img/open10.jpeg',
+        src: '../audio/open10.mp3',
+        appearedIn: 'Opening 10',
+        singer: '东方神起',
     },
     {
         id: '11',
-        songName: 'We Are Hiroshi Kitadani',
-        img: '../img/82a47526700b03819887b377c6c97818.jpg',
-        src: '../audio/one-piece-song_ed02-run-run-run-maki-otsuki.mp3'
+        songName: 'Share The World',
+        img: '../img/open11.jpeg',
+        src: '../audio/open11.mp3',
+        appearedIn: 'Opening 11',
+        singer: '东方神起',
     },
     {
         id: '12',
-        songName: 'We Are Hiroshi Kitadani',
-        img: '../img/82a47526700b03819887b377c6c97818.jpg',
-        src: '../audio/one-piece-song_ed02-run-run-run-maki-otsuki.mp3'
+        songName: '风をさがして Search the Wind 寻找风',
+        img: '../img/open12.jpeg',
+        src: '../audio/open12.mp3',
+        appearedIn: 'Opening 12',
+        singer: '矢口真里',
     },
     {
         id: '13',
-        songName: 'We Are Hiroshi Kitadani',
-        img: '../img/82a47526700b03819887b377c6c97818.jpg',
-        src: '../audio/one-piece-song_ed02-run-run-run-maki-otsuki.mp3'
+        songName: 'One Day',
+        img: '../img/open13.jpeg',
+        src: '../audio/open13.mp3',
+        appearedIn: 'Opening 13',
+        singer: 'The Rootless',
     },
     {
         id: '14',
-        songName: 'We Are Hiroshi Kitadani',
-        img: '../img/82a47526700b03819887b377c6c97818.jpg',
-        src: '../audio/one-piece-song_ed02-run-run-run-maki-otsuki.mp3'
+        songName: 'FIght Together',
+        img: '../img/open14.jpeg',
+        src: '../audio/open14.mp3',
+        appearedIn: 'Opening 14',
+        singer: '安室奈美惠',
     },
     {
         id: '15',
-        songName: 'We Are Hiroshi Kitadani',
-        img: '../img/82a47526700b03819887b377c6c97818.jpg',
-        src: '../audio/one-piece-song_ed02-run-run-run-maki-otsuki.mp3'
+        songName: 'We Go',
+        img: '../img/open15.jpeg',
+        src: '../audio/open15.mp3',
+        appearedIn: 'Opening 15',
+        singer: '北谷洋',
     },
-    {
-        id: '16',
-        songName: 'We Are Hiroshi Kitadani',
-        img: '../img/82a47526700b03819887b377c6c97818.jpg',
-        src: '../audio/one-piece-song_ed02-run-run-run-maki-otsuki.mp3'
-    },
+
 ];
 
 let music_container = document.querySelectorAll('.songItem');
@@ -190,21 +215,33 @@ const imageMove = () => {
     })
 }
 
+let enTitle = document.querySelector('.e_title');
+let jpTitle = document.querySelector('.j_title');
+let singer = document.querySelector('.singer');
+let appear = document.querySelector('.appear')
 
 let index = 0;
 let inner = document.querySelector('.inner')
 Array.from(play).forEach((el) => {
     el.addEventListener('click', (e) => {
         index = e.target.id;
+
         console.log(index);
+
+        enTitle.innerText = songs[index - 1].songName;
+
+        jpTitle.innerText = songs[index - 1].japaneseName;
+
+        singer.innerText = songs[index - 1].singer;
+        
+        appear.innerText = songs[index - 1].appearedIn;
         
         if (musicPlay.paused || musicPlay.currentTime <= 0) {
                     musicPlay.src = songs[index - 1].src;
                     musicPlay.play();
-                    // playMusic();
+                    
                     e.target.classList.remove('fa-play');
                     e.target.classList.add('fa-pause');
-                    // imageMove();
                     inner.classList.add('play')
                 }
                 else {
@@ -217,4 +254,23 @@ Array.from(play).forEach((el) => {
     })
 })
 
+// let audio = document.querySelectorAll('.audio');
+// audio = new Audio(songs[index].src) ;
+// Array.from(audio).forEach((e) => {
+//     e.target = new Audio(songs[index].src);
+//     e.play()
+// })
+// audio.play()
 
+// play.addEventListener('click', () => {
+//     if (musicPlay.paused || musicPlay.currentTime <= 0) {
+//         musicPlay.play();
+//         play.classList.remove('fa-play');
+//         play.classList.add('fa-pause');
+//     }
+//     else {
+//         musicPlay.pause();
+//         play.classList.remove('fa-pause');
+//         play.classList.add('fa-play');
+//     }
+// });
