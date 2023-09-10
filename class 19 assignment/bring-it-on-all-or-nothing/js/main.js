@@ -37,7 +37,7 @@ takeBool(true, 'YO')
 // but if the number is divisible by 3 log "fizz" instead of that number, 
 // if the number is divisible by 5 log "buzz" instead of the number, 
 // and if the number is divisible by 3 and 5 log "fizzbuzz" instead of that number
-function takeNum(n) {
+function fizzBuzz(n) {
     for (i= 1; i <= n; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
             console.log('fizz');
@@ -53,4 +53,4 @@ function takeNum(n) {
         }
     }
 }
-takeNum(10);
+fizzBuzz(10);
