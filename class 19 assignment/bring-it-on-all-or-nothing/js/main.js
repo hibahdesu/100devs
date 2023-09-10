@@ -16,14 +16,14 @@ takeFour(1, 2, 3, 2)
 
 // Create a function that takes in 2 numbers. Console log the first number to the power of the second. Call the function.
 function takeTwo(n1, n2) {
-    console.log(n1*n2);
+    console.log(Math.pow(n1, n2));
 }
 takeTwo(2, 2)
 
 // *Conditionals*
 // Create a function that takes in a boolean and a string. If the boolean is true, alert the string. If the boolean is false, console log the string
 function takeBool(b, s) {
-    if (b === true) {
+    if (b) {
         alert(s)
     }
     else {
