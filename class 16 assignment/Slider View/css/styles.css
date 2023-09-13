@@ -7,12 +7,29 @@
     --font-1: 'Dancing Script', cursive;
     --color-1: #f3ec78;
     --color-2: #af4261;
+    --gradient: linear-gradient(45deg, #af4261, #f3ec78)
 }
 li {
     list-style: none;
 }
 a {
     text-decoration: none;
+}
+.btn {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem 0 1rem 0;
+    background-image: var(--gradient);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background-image: none;
+    color: var(--color-2);
+    background-color: var(--color-1);
+    border: 2px solid white;
+    transition: .3s ease-in-out;
 }
 .flex {
     display: flex;
@@ -30,10 +47,6 @@ header {
     align-items: center;
     height: 90px;
     padding: 4rem 6rem;
-    /* background: url('../images/aron-van-de-pol-tZDtyUrYrFU-unsplash.jpg');
-    border: none;
-    background-repeat: no-repeat;
-    background-size: cover; */
     position: absolute;
     top: 10px;
 }
@@ -159,4 +172,12 @@ nav ul li:hover, nav ul li.active {
 }
 .image img {
     width: 500px;
+}
+.footer {
+    background-color: var(--color-1);
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 1.5rem 0;
 }
