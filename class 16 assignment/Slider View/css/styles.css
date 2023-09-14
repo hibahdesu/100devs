@@ -31,6 +31,12 @@ a {
     border: 2px solid white;
     transition: .3s ease-in-out;
 }
+.section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -49,6 +55,7 @@ header {
     padding: 4rem 6rem;
     position: absolute;
     top: 10px;
+    z-index: 1;
 }
 header h1 {
     font-family: var(--font-1);
