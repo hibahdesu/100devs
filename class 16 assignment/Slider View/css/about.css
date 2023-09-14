@@ -16,18 +16,15 @@ body {
     height: 100%;
 }
 .about {
-    height: 100%;
     padding: 50px;
     background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(76, 76, 76, 0.2)), url('../images/moveP.gif');
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom-right-radius: 2rem;
-    border-bottom-left-radius: 2rem;
+    
 }
 section {
     height: 100vh;
