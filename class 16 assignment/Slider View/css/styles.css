@@ -9,6 +9,11 @@
     --color-2: #af4261;
     --gradient: linear-gradient(45deg, #af4261, #f3ec78)
 }
+.pragraph {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
 li {
     list-style: none;
 }
@@ -30,6 +35,9 @@ a {
     background-color: var(--color-1);
     border: 2px solid white;
     transition: .3s ease-in-out;
+}
+section {
+    height: 100vh;
 }
 .section {
     height: 100%;
