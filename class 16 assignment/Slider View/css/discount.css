@@ -5,7 +5,6 @@
     --gradient: linear-gradient(45deg, #af4261, #f3ec78)
 }
 .discount{
-    /* padding: 50px; */
     background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(76, 76, 76, 0.6)), url('../images/d0.jpg');
     border-bottom-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
@@ -13,6 +12,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+.solid {
+    padding: 4rem 0;
 }
 .center {
     height: 70vh;
@@ -33,13 +35,10 @@
     background-attachment: fixed;
 }
 .down {
-    /* min-height: 100%; */
     height: auto;
-    /* width: 100vw; */
     gap: 3rem;
     align-items: center;
     padding-top: 8rem;
-    /* border-bottom: 2px solid black; */
     overflow: hidden;
 }
 .down img, .down div {
@@ -71,13 +70,4 @@
 }
 .d_one img{
     border-radius: 50%;
-}
-.d_two {
-
-}
-.d_three {
-
-}
-.d_four {
-
 }
