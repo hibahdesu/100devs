@@ -33,25 +33,52 @@
         </div>
     </section>
 
-    <section class="contact_section padding flex">
-        <img src="" alt="">
+    <section class="contact_info flex padding">
+        <div class="images">
+            <div src="images/c3.jpg" alt="Nature" class="img_1"></div>
+            <img src="images/c4.jpg" alt="Nature" class="img_2">
+            <img src="images/c5.jpg" alt="Nature" class="img_3">
+        </div>
+        <div class="contact_info-details flex">
+            <h3 class="header">Travel Up</h3>
+            <p>www.travelUp.com</p>
+            <p>99Rovige St, Big City, PKU 2352</p>
+            <div class="flex media">
+                <div class="phone flex">
+                    <h4 class="flex header"><i class="bi bi-telephone-fill"></i>Phone Number</h4>
+                    <p>123983991</p>
+                </div>
+    
+                <div class="email_add flex">
+                    <h4 class="flex header"><i class="bi bi-envelope-fill"></i>Email</h4>
+                    <p>travelUp.gamil.com</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="contact_section  flex">
+        <div class="back_img">
+        </div>
+        
         <div class="contact_form flex">
-            <form action="">
+            <h3 class="header">Let's Hear From You</h3>
+            <form class="flex">
                 <!-- Name -->
                 <div class="flex">
                     <input type="text" placeholder="Your name" id="name" required>
-                    <label for="name">Name:</label>
+                    <!-- <label for="name">Name:</label> -->
                 </div>
                 
                 <!-- Email Address-->
                 <div class="flex">
                     <input type="email" placeholder="Your email" id="email" required>
-                    <label for="email">Email:</label>
+                    <!-- <label for="email">Email:</label> -->
                 </div>
                 
                 <!-- Message -->
                 <textarea cols="35" rows="7" placeholder="Message..." id="message"></textarea>
-                <button onclick="alert('Thank you! We will get back to you soon.')">Send message!</button>
+                <button class="btn" onclick="alert('Thank you! We will get back to you soon.')">Send message!</button>
             </form>
         </div>
     </section>
