@@ -1,0 +1,121 @@
+:root {
+    --font-1: 'Dancing Script', cursive;
+    --color-1: #f3ec78;
+    --color-2: #af4261;
+    --gradient: linear-gradient(45deg, #af4261, #f3ec78)
+}
+.contact_section {
+    height: 100vh;
+    gap: 3rem;
+    background-color: #eee;
+}
+.contact {
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.4), rgba(76, 76, 76, 0.6)), url('../images/c.jpg');
+    overflow: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    flex-direction: column;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contact_info {
+    background-color: #f5f2f2;
+    height: 100vh;
+    align-items: center;
+}
+.images {
+    position: relative;
+    flex-basis: 50%;
+}
+.images img, .images div {
+    position: absolute;
+    width: 260px;
+    height: 400px;
+}
+.images div {
+    background-color: var(--color-1);
+}
+.images .img_1 {
+    z-index: 2;
+    right: 260px;
+    top: -200px;
+}
+.images .img_2 {
+    z-index: 3;
+    right: 180px;
+    top: -300px;
+}
+.images .img_3 {
+    z-index: 4;
+    right: 320px;
+    top: -100px;
+}
+.contact_info-details {
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 50%;
+    padding-top: 4rem;
+    border-top: 3px solid var(--color-1);
+
+}
+.contact_info-details p {
+    font-size: 1.6rem;
+    color: var(--color-2);
+    font-weight: 600;
+    padding-left: 2.5rem;
+}
+.contact_info h4 {
+    font-size: 2rem;
+    gap: 1rem;
+}
+.media {
+    gap: 4rem;
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+    border-bottom: 3px solid var(--color-1);
+}
+.media div {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    cursor: pointer;
+}
+.back_img, .contact_form {
+    flex-basis: 48%;
+}
+.contact_form {
+    padding: 4rem;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.contact_form form {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+.contact_form form input {
+    height: 60px;
+}
+.contact_form h3 {
+    font-size: 4rem;
+}
+.contact_form form input, .contact_form form textarea {
+    background-color: #eee;
+    padding: 1rem;
+    width: 100%;
+    border: 3px solid var(--color-1);
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+.contact_form form button {
+    align-self: center;
+}
+.back_img {
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.4), rgba(76, 76, 76, 0.6)), url('../images/c2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
