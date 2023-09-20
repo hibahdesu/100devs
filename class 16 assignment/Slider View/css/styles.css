@@ -57,7 +57,7 @@ section {
 }
 header {
     display: flex;
-    gap: 80rem;
+    gap: 60rem;
     align-items: center;
     height: 90px;
     padding: 4rem 6rem;
@@ -91,7 +91,7 @@ header i {
 nav {
     position: absolute;
     top: 70px;
-    height: 70vh;
+    height: auto;
     width: 20vw;
     right: 140px;
     background-color: rgba(0, 0, 0, 0.3);
@@ -268,6 +268,9 @@ nav ul li:hover, nav ul li.active {
     }
 }
 @media screen and (max-width: 1024px) {
+    section {
+        height: auto;
+    }
     .padding {
         padding: 3rem 4rem;
     }
@@ -280,7 +283,9 @@ nav ul li:hover, nav ul li.active {
     }
     .header {
         padding-top: 5rem;
+        font-size: 6rem;
     }
+
 }
 @media screen and (max-width: 767px){
     section {
@@ -304,9 +309,13 @@ nav ul li:hover, nav ul li.active {
     }
     .header {
         padding-top: 4rem;
+        font-size: 5rem;
     }
 }
 @media screen and (max-width: 480px){
+    .padding {
+        padding: 1rem 2rem;
+    }
     section {
         height: auto;
     }
@@ -327,5 +336,8 @@ nav ul li:hover, nav ul li.active {
         top: 80px;
         right: 60px;
         width: 60vw;
+    }
+    .header {
+        font-size: 3rem;
     }
 }
