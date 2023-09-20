@@ -94,7 +94,6 @@ nav {
     height: 70vh;
     width: 20vw;
     right: 140px;
-    /* background-color: rgb(175, 66, 97, .8); */
     background-color: rgba(0, 0, 0, 0.3);
     padding: 2rem;
     border-radius: 1rem 3rem 1rem 3rem;
@@ -177,15 +176,6 @@ nav ul li:hover, nav ul li.active {
 .image img {
     width: 500px;
 }
-/* .footer {
-    background-color: var(--color-1);
-    height: 80px;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    padding: 1.5rem 0;
-} */
-
 .footer{
     background-color: #24262b;
     height: auto;
@@ -257,9 +247,85 @@ nav ul li:hover, nav ul li.active {
     align-items: center;
 }
 /*responsive*/
-@media(max-width: 767px){
-   
+@media screen  and (max-width: 1280px){
+    .padding {
+        padding: 3rem 4rem;
+    }
+    header {
+        gap: 40rem;
+        padding: 4rem 3rem;
+    }
+    .image {
+        left: 300px;
+    }
+    nav {
+        height: auto;
+        width: 40vw;
+        right: 90px;
+    }
+    .header {
+        padding-top: 6rem;
+    }
 }
-@media(max-width: 574px){
-    
+@media screen and (max-width: 1024px) {
+    .padding {
+        padding: 3rem 4rem;
+    }
+    header {
+        gap: 34rem;
+        padding: 4rem 3rem;
+    }
+    .image {
+        left: 200px;
+    }
+    .header {
+        padding-top: 5rem;
+    }
+}
+@media screen and (max-width: 767px){
+    section {
+        height: auto;
+    }
+    .padding {
+        padding: 3rem 3rem;
+    }
+    header {
+        gap: 20rem;
+        padding: 4rem 3rem;
+    }
+    header h1 {
+        font-size: 3.5rem;
+    }
+    .image {
+        left: 100px;
+    }
+    nav {
+        width: 50vw;
+    }
+    .header {
+        padding-top: 4rem;
+    }
+}
+@media screen and (max-width: 480px){
+    section {
+        height: auto;
+    }
+    header {
+        gap: 10rem;
+        padding: 4rem 2rem;
+    }
+    header h1 {
+        font-size: 2.5rem;
+    }
+    .image {
+        left: 50px;
+    }
+    .image img {
+        width: 400px;
+    }
+    nav {
+        top: 80px;
+        right: 60px;
+        width: 60vw;
+    }
 }
