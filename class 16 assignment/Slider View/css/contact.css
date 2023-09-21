@@ -178,10 +178,6 @@
         flex-direction: column;
         gap: 1rem;
     }
-    /* .back_img {
-        height: auto;
-        flex-basis: 100%;
-    } */
     
 }
 @media screen and (max-width: 480px) {
