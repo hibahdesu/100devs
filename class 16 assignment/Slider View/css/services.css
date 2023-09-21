@@ -124,9 +124,6 @@ body {
         flex-basis: 46%;
     }
 }
-@media screen and (max-width: 1024px) {
-
-}
 @media screen and (max-width: 767px) {
     .section_one, .section_two {
         justify-content: center;
@@ -150,7 +147,4 @@ body {
     .moving_contents p {
         width: 100%;
     }
-}
-@media screen and (max-width: 480px) {
-
 }
