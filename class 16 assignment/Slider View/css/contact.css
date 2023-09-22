@@ -2,12 +2,13 @@
     --font-1: 'Dancing Script', cursive;
     --color-1: #f3ec78;
     --color-2: #af4261;
+    --color-3: #f5f2f2;
     --gradient: linear-gradient(45deg, #af4261, #f3ec78)
 }
 .contact_section {
     height: 100vh;
     gap: 3rem;
-    background-color: #eee;
+    background-color: var(--color-3);
 }
 .contact {
     background: linear-gradient(45deg, rgba(255, 255, 255, 0.4), rgba(76, 76, 76, 0.6)), url('../images/c.jpg');
@@ -22,7 +23,7 @@
     background-attachment: fixed;
 }
 .contact_info {
-    background-color: #f5f2f2;
+    background-color: var(--color-3);
     height: 100vh;
     align-items: center;
 }
@@ -102,22 +103,29 @@
     font-size: 4rem;
 }
 .contact_form form input, .contact_form form textarea {
-    background-color: #eee;
+    background-color: var(--color-3);
     padding: 1rem;
     width: 100%;
     border: 3px solid var(--color-1);
     border-radius: 1rem;
     font-size: 1.2rem;
 }
+.contact_section {
+    overflow: hidden;
+}
 .contact_form form button {
     align-self: center;
 }
 .back_img {
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0.4), rgba(76, 76, 76, 0.6)), url('../images/c2.jpg');
-    background-repeat: no-repeat;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.4), rgba(76, 76, 76, 0.6));
+    /* background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: auto;
+    height: auto; */
+}
+.back_img img {
+    max-width: 100%;
+    height: 100%;
 }
 @media screen  and (max-width: 1280px) {
     .media {
@@ -178,8 +186,4 @@
         flex-direction: column;
         gap: 1rem;
     }
-    
-}
-@media screen and (max-width: 480px) {
-
 }
