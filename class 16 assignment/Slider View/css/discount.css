@@ -24,6 +24,9 @@
     align-items: center;
     margin: 0 6rem;
 }
+.slide_down::-webkit-scrollbar {
+    display: none;
+}
 .slide_down {
     background: linear-gradient(45deg, rgba(255, 255, 255, 0.4), rgba(76, 76, 76, 0.6)), url('../images/d.jpg');
     overflow: auto;
@@ -69,6 +72,12 @@
     padding: 1rem;
     align-self: start;
 }
+/* .d_one img{
+    border-radius: 50%;
+} */
+/* @media screen  and (max-width: 1280px) {
+
+} */
 @media screen and (max-width: 1024px) {
     .down img, .down div {
         flex-basis: 40%;
